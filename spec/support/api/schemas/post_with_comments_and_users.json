@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "required": [
+    "id",
+    "author",
+    "title",
+    "content",
+    "comments"
+  ],
+  "properties": {
+    "comments": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": true
+}
