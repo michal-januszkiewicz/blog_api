@@ -20,6 +20,8 @@ group :development, :test do
 
   gem "brakeman"
   gem "bundler-audit"
+
+  gem "rspec-rails", "~> 3.8"
 end
 
 group :development do
