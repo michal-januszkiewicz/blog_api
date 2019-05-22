@@ -11,7 +11,10 @@ module Api
       private
 
       def show_params
-        params.permit(:id)
+        params
+          .permit(:id)
+          .to_h
+          .symbolize_keys
       end
     end
   end
