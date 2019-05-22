@@ -25,6 +25,7 @@ group :development, :test do
   gem "factory_bot_rails", "~> 5.0.2"
   gem "json-schema", "~> 2.8.1"
   gem "faker", "~> 1.9.3"
+  gem "database_cleaner", "~> 1.7.0"
 end
 
 group :development do
