@@ -3,6 +3,8 @@
 module Api
   module V1
     class ApiController < ApplicationController
+      include ExceptionsHandler
+
       before_action :authenticate_request!
 
       private
