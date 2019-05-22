@@ -23,6 +23,7 @@ group :development, :test do
 
   gem "rspec-rails", "~> 3.8"
   gem "factory_bot_rails", "~> 5.0.2"
+  gem "json-schema", "~> 2.8.1"
 end
 
 group :development do
